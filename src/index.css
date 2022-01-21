@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    background: none;
+    @apply rounded border border-gray-700 py-1 px-2 text-lg;
+}
+
+.mark-button {
+    @apply border-purple-300 from-indigo-700 to-purple-500;
+    box-shadow: 0 2px #4338ca;
+  }
+  .mark-button:hover {
+    @apply from-indigo-500 to-purple-400;
+  }
+  .mark-button:active {
+    @apply border-indigo-700;
+    box-shadow: 0 2px #c4b5fd;
+  }

@@ -1,0 +1,180 @@
+[
+            {
+                "name": "Sphatika",
+                "zone": "Thavnair",
+                "mobs": [
+                    {
+                        "name": "Asvattha",
+                        "imageUrl": "",
+                        "mapImg": "/maps/sphatika-asvattha.PNG",
+                        "available": 11,
+                        "req": 100,
+                        "locDesc": "North of Palaka's Stand"
+                    },
+                    {
+                        "name": "Vajralangula",
+                        "imageUrl": "",
+                        "mapImg": "/maps/sphatika-vajralangula.PNG",
+                        "available": 12,
+                        "req": 100,
+                        "locDesc": "North of The Great Work"
+                    },
+                    {
+                        "name": "Pisaca",
+                        "imageUrl": "",
+                        "mapImg": "/maps/sphatika-pisaca.PNG",
+                        "available": 11,
+                        "req": 100,
+                        "locDesc": "East of The Great Work"
+                    }
+                ]
+            },
+            {
+                "name": "Ruminator",
+                "zone": "Mare Lamentorum",
+                "mobs": [
+                    {
+                        "name": "Thinker",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ruminator-thinker.PNG",
+                        "available": 9,
+                        "req": 100,
+                        "locDesc": "Between The Biting Brand and The Striking Brand"
+                    },
+                    {
+                        "name": "Wanderer",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ruminator-wanderer.PNG",
+                        "available": 15,
+                        "req": 100,
+                        "locDesc": "Near The Searing Brand"
+                    },
+                    {
+                        "name": "Weeper",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ruminator-weeper.PNG",
+                        "available": 8,
+                        "req": 100,
+                        "locDesc": "Inside the cave south east of The Crushing Brand"
+                    }
+                ]
+            },
+            {
+                "name": "Ixtab",
+                "zone": "The Rak'tika Greatwood",
+                "mobs": [
+                    {
+                        "name": "Cracked Ronkan Dolls",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ixtab.png",
+                        "available": 12,
+                        "req": 100,
+                        "locDesc": "The K'mul Astropolis"
+                    },
+                    {
+                        "name": "Cracked Ronkan Thorn",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ixtab.png",
+                        "available": 10,
+                        "req": 100,
+                        "locDesc": "The K'mul Astropolis"
+                    },
+                    {
+                        "name": "Cracked Ronkan Vessel",
+                        "imageUrl": "",
+                        "mapImg": "/maps/ixtab.png",
+                        "available": 9,
+                        "req": 100,
+                        "locDesc": "The K'mul Astropolis"
+                    }
+                ]
+            },
+            {
+                "name": "Udumbara",
+                "zone": "The Fringes",
+                "mobs": [
+                    {
+                        "name": "Leshy",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 11,
+                        "req": 100,
+                        "locDesc": "East End"
+                    },
+                    {
+                        "name": "Diakka",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 9,
+                        "req": 100,
+                        "locDesc": "Dimwold"
+                    }
+                ]
+            },
+            {
+                "name": "Okina",
+                "zone": "The Ruby Sea",
+                "mobs": [
+                    {
+                        "name": "Yumemi",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 9,
+                        "req": 100,
+                        "locDesc": "Inside the 3 underwater caves"
+                    },
+                    {
+                        "name": "Naked Yumemi",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 8,
+                        "req": 100,
+                        "locDesc": "Inside the 3 underwater caves"
+                    }
+                ]
+            },
+            {
+                "name": "Leucrotta",
+                "zone": "Azys Lla",
+                "mobs": [
+                    {
+                        "name": "Allagan Chimera",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 6,
+                        "req": 50,
+                        "locDesc": "Beta Quadrant"
+                    },
+                    {
+                        "name": "Meracydian Vouivre",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 10,
+                        "req": 50,
+                        "locDesc": "Delta Quadrant"
+                    },
+                    {
+                        "name": "Lesser Hydra",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 12,
+                        "req": 50,
+                        "locDesc": "Delta Quadrant"
+                    }
+                ]
+            },
+            {
+                "name": "Minhocao",
+                "zone": "Northern Thanalan",
+                "mobs": [
+                    {
+                        "name": "Earth Sprites",
+                        "imageUrl": "",
+                        "mapImg": "",
+                        "available": 13,
+                        "req": 100,
+                        "locDesc": "Raubahn's Push"
+                    }
+                ]
+            }
+]
