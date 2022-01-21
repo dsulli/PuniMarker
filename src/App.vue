@@ -31,7 +31,7 @@ export default {
         <div class="my-4 bg-gray-900 py-4 px-6 rounded-xl" v-for="guy in sRank.mobs" :key="guy.name">
           <h3 class="font-bold text-gray-400 mb-4 text-2xl">{{ guy.name }}</h3>
           
-          <div class="mb-6">
+          <div class="mb-2">
             <MobCounter :mob-data="guy"/>
           </div>
           <div>
@@ -40,7 +40,7 @@ export default {
           <div class="mb-2">
             <span class="font-bold">Location</span>: {{ guy.locDesc }}
           </div>
-          <img :src="guy.mapImg" class="w-full rounded-xl" />
+          <img :src="guy.mapImg" class="w-full rounded-xl mb-2" />
           
         </div>
         </div>

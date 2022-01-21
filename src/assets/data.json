@@ -6,7 +6,7 @@
                     {
                         "name": "Asvattha",
                         "imageUrl": "",
-                        "mapImg": "./maps/sphatika-asvattha.PNG",
+                        "mapImg": "./maps/sphatika-asvattha.jpg",
                         "available": 11,
                         "req": 100,
                         "locDesc": "North of Palaka's Stand"
@@ -14,7 +14,7 @@
                     {
                         "name": "Vajralangula",
                         "imageUrl": "",
-                        "mapImg": "./maps/sphatika-vajralangula.PNG",
+                        "mapImg": "./maps/sphatika-vajralangula.jpg",
                         "available": 12,
                         "req": 100,
                         "locDesc": "North of The Great Work"
@@ -22,7 +22,7 @@
                     {
                         "name": "Pisaca",
                         "imageUrl": "",
-                        "mapImg": "./maps/sphatika-pisaca.PNG",
+                        "mapImg": "./maps/sphatika-pisaca.jpg",
                         "available": 11,
                         "req": 100,
                         "locDesc": "East of The Great Work"
