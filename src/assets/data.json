@@ -6,7 +6,7 @@
                     {
                         "name": "Asvattha",
                         "imageUrl": "",
-                        "mapImg": "/maps/sphatika-asvattha.PNG",
+                        "mapImg": "./maps/sphatika-asvattha.PNG",
                         "available": 11,
                         "req": 100,
                         "locDesc": "North of Palaka's Stand"
@@ -14,7 +14,7 @@
                     {
                         "name": "Vajralangula",
                         "imageUrl": "",
-                        "mapImg": "/maps/sphatika-vajralangula.PNG",
+                        "mapImg": "./maps/sphatika-vajralangula.PNG",
                         "available": 12,
                         "req": 100,
                         "locDesc": "North of The Great Work"
@@ -22,7 +22,7 @@
                     {
                         "name": "Pisaca",
                         "imageUrl": "",
-                        "mapImg": "/maps/sphatika-pisaca.PNG",
+                        "mapImg": "./maps/sphatika-pisaca.PNG",
                         "available": 11,
                         "req": 100,
                         "locDesc": "East of The Great Work"
@@ -36,7 +36,7 @@
                     {
                         "name": "Thinker",
                         "imageUrl": "",
-                        "mapImg": "/maps/ruminator-thinker.PNG",
+                        "mapImg": "./maps/ruminator-thinker.PNG",
                         "available": 9,
                         "req": 100,
                         "locDesc": "Between The Biting Brand and The Striking Brand"
@@ -44,7 +44,7 @@
                     {
                         "name": "Wanderer",
                         "imageUrl": "",
-                        "mapImg": "/maps/ruminator-wanderer.PNG",
+                        "mapImg": "./maps/ruminator-wanderer.PNG",
                         "available": 15,
                         "req": 100,
                         "locDesc": "Near The Searing Brand"
@@ -52,7 +52,7 @@
                     {
                         "name": "Weeper",
                         "imageUrl": "",
-                        "mapImg": "/maps/ruminator-weeper.PNG",
+                        "mapImg": "./maps/ruminator-weeper.PNG",
                         "available": 8,
                         "req": 100,
                         "locDesc": "Inside the cave south east of The Crushing Brand"
