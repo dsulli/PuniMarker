@@ -3,9 +3,9 @@
 <template>
   <div >
     <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">
-    <div class="lg:pr-4  text-5xl lg:mb-0 mb-4 leading-9 lg:border-r-2 border-gray-600" :class="{'text-green-400': percentage >= 100, 'text-yellow-400': percentage >= 75 &&  percentage < 100}">
+    <div class="lg:pr-4 2xl:text-5xl text-4xl lg:mb-0 mb-4 leading-9 lg:border-r-2 border-gray-600 tracking-tighter" :class="{'text-green-400': percentage >= 100, 'text-yellow-400': percentage >= 75 &&  percentage < 100}">
       <div><span >{{ count }}</span> / <span>{{ mobData.req }}</span></div>
-      <div class="relative pt-2">
+      <div class="relative pt-2 2xl:pb-0 pb-4">
         <div class="absolute bg-gray-200 rounded-full w-full h-4 mt-4 border-2 border-gray-100"></div>
         <div class="absolute  rounded-full h-4 mt-4 border-2 border-gray-100 bg-gradient-to-b" :class="{'from-gray-500 to-gray-400': percentage < 75, 'from-green-600 to-lime-500': percentage >= 100, 'from-yellow-500 to-yellow-300': percentage >= 75 &&  percentage < 100}" :style="progressBarStyle"></div>
       </div>
@@ -62,7 +62,7 @@ export default {
       if(input > this.mobData.available) {
         this.incrementer = this.mobData.available;
       } else if(input < 0 || input == "") {
-        this.incrementer = 0;
+        this.incrementer = 2;
       }
     }
   },
