@@ -47,8 +47,11 @@ export default {
       </div>
     </div>
     <div class="w-full bg-gray-700  ">
-      <div class="container mx-auto py-4 px-4 lg:px-0 md:flex md:justify-between">
-         <div>Made by Floon (2022)</div>
+      <div class="container mx-auto py-4 px-4 lg:px-0 md:flex md:justify-between items-center">
+         <div>
+           <div>Made by Floon (2022)</div>
+           <div>Feedback? Message floon#0425 on Discord</div>
+          </div>
          <div >Map Images © SQUARE ENIX CO., LTD. All Rights Reserved.</div>
       </div>
     </div>

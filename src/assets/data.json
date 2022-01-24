@@ -96,15 +96,15 @@
                     {
                         "name": "Leshy",
                         "imageUrl": "",
-                        "mapImg": "",
-                        "available": 11,
+                        "mapImg": "./maps/udumbara-leshy.jpg",
+                        "available": 14,
                         "req": 100,
                         "locDesc": "East End"
                     },
                     {
                         "name": "Diakka",
                         "imageUrl": "",
-                        "mapImg": "",
+                        "mapImg": "./maps/udumbara-diakka.jpg",
                         "available": 9,
                         "req": 100,
                         "locDesc": "Dimwold"
@@ -170,8 +170,8 @@
                     {
                         "name": "Earth Sprites",
                         "imageUrl": "",
-                        "mapImg": "",
-                        "available": 13,
+                        "mapImg": "./maps/minhocao.jpg",
+                        "available": 14,
                         "req": 100,
                         "locDesc": "Raubahn's Push"
                     }

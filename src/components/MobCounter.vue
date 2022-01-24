@@ -12,15 +12,15 @@
       <!-- <span class="text-2xl text-gray-600">{{ percentage }}%</span> -->
     </div>
     <div class="lg:pl-2">
-      <input type="number" min="0"  v-model="count" class="w-full">
+      <input type="number" min="0" :max="parseInt(mobData.req)" v-model="count" class="w-full">
       <div class="mt-4 grid grid-cols-2 gap-2">
-        <button class="mark-button  text-lg tracking-wider uppercase py-1 px-4  border-t-2 rounded-full  bg-gradient-to-b text-gray-100 font-bold outline-none" @click="count++">+1</button>
-        <button class="mark-button text-lg tracking-wider uppercase py-1 px-4  border-t-2 rounded-full  bg-gradient-to-b text-gray-100 font-bold outline-none" @click="count += incrementer">+{{ incrementer }}</button>
+        <button class="mark-button  text-lg tracking-wider uppercase py-1 px-4  border-t-2 rounded-full  bg-gradient-to-b text-gray-100 font-bold outline-none" @click="count + 1 <= mobData.req ? count++ : mobData.req">+1</button>
+        <button class="mark-button text-lg tracking-wider uppercase py-1 px-4  border-t-2 rounded-full  bg-gradient-to-b text-gray-100 font-bold outline-none" @click="incByLap">+{{ incrementer }}</button>
       </div>
     </div>
     </div>
     <div class="mt-4 flex w-full content-center items-center">
-      <div class="text-xl mr-2 text-gray-400 font-bold">Mobs Per Lap:</div> <input type="number" min="2" v-model="incrementer" class="w-16">
+      <div class="text-xl mr-2 text-gray-400 font-bold">Mobs Per Lap:</div> <input type="number" min="2" :max="mobData.available" v-model="incrementer" class="w-16">
     </div>
   </div>
 </template>
@@ -48,6 +48,31 @@ export default {
         width: `${percent}%`,
         display: display
       };
+    }
+  },
+  watch: {
+    count(input) {
+      if(input > this.mobData.req) {
+        this.count = this.mobData.req;
+      } else if(input < 0 || input == "") {
+        this.count = 0;
+      }
+    },
+    incrementer(input) {
+      if(input > this.mobData.available) {
+        this.incrementer = this.mobData.available;
+      } else if(input < 0 || input == "") {
+        this.incrementer = 0;
+      }
+    }
+  },
+  methods: {
+    incByLap() {
+      if(this.count + this.incrementer <= this.mobData.req) {
+        this.count += this.incrementer;
+      } else {
+        this.count = this.mobData.req;
+      }
     }
   }
 }
