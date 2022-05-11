@@ -64,7 +64,10 @@ export default {
            <div>Made by Floon (2022)</div>
            <div>Contact: floon#0425 on Discord</div>
           </div>
-         <div >Map Images © SQUARE ENIX CO., LTD. All Rights Reserved.</div>
+         <div >
+           <div>Map Images © SQUARE ENIX CO., LTD. All Rights Reserved.</div>
+           Built with Vue3, Tailwind, and Netlify
+          </div>
       </div>
     </div>
   </div>

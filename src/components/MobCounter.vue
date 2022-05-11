@@ -20,7 +20,7 @@
     </div>
     </div>
     <div class="mt-4 flex w-full content-center items-center">
-      <div class="text-xl mr-2 text-gray-400 font-bold">Mobs Per Lap:</div> <input type="number" min="2" :max="mobData.available" v-model="incrementer" class="w-16">
+      <div class="text-xl mr-2 text-gray-400 font-bold">Mobs Per Lap:</div> <input type="number" min="2" :max="this.mobData.req" v-model="incrementer" class="w-16">
     </div>
   </div>
 </template>
@@ -32,7 +32,6 @@ export default {
   ],
   data() {
     return {
-      msg: "hi",
       count: 0,
       incrementer: this.mobData.available
     }
@@ -59,8 +58,8 @@ export default {
       }
     },
     incrementer(input) {
-      if(input > this.mobData.available) {
-        this.incrementer = this.mobData.available;
+      if(input > this.mobData.req) {
+        this.incrementer = this.mobData.req;
       } else if(input < 0 || input == "") {
         this.incrementer = 2;
       }

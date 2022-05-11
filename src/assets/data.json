@@ -75,7 +75,7 @@
                         "name": "Cracked Ronkan Thorn",
                         "imageUrl": "",
                         "mapImg": "./maps/ixtab-thorns.jpg",
-                        "available": 10,
+                        "available": 11,
                         "req": 100,
                         "locDesc": "The K'mul Astropolis"
                     },
@@ -149,7 +149,7 @@
                         "name": "Meracydian Vouivre",
                         "imageUrl": "",
                         "mapImg": "./maps/leucrotta-meracydianvouivre.jpg",
-                        "available": 11,
+                        "available": 10,
                         "req": 50,
                         "locDesc": "Delta Quadrant"
                     },
